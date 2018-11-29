@@ -1,0 +1,22 @@
+Linx File Types
+_ : Regular File Types
+d : Directy
+c : Character Device File
+b : block Device File
+s : Local Socket File
+p : Named Pipe
+l : Symbolic Linx
+
+###########################   Regular File ##########################
+ls  to show all such Files
+touch to create
+
+-rw-r--r--  1 root root         0 Nov 29 15:09 itsfile
+
+##########################  Directy    ###############################
+
+mkdir to create Directy
+
+drwxr-xr-x  2 root root         6 Nov 29 15:10 itsfolder
+
+#########################  Character Files #####################
