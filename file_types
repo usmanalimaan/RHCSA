@@ -21,3 +21,23 @@ drwxr-xr-x  2 root root         6 Nov 29 15:10 itsfolder
 
 #########################  Character Files #####################
 starting new changes just checking 
+
+############### File permissions
+permission| Effect on files                   | Effect on Directy
+r (read)  | Contents of the file can be read  | Contents of the directory (file names) can be listed
+w (write) |Contents of the file can be changed| Any file in the directory may be created or deleted
+x (exec)  |Files can be executed as commands  | Contents of the directory can be accessed (dependent on the permissions of the files in the directory)
+
+################# Symbolic Method Keywords
+
+* chmod WhoWhatWhich file|directory
+
+>Who is u, g, o, a (for user, group, other, all)
+>What is +, -, = (for add, remove, set exactly)
+>Which is r, w, x (for read, write, execute)
+
+###############  Numeric Method
+* chmod ### file|directory
+
+>Each digit represents an access level: user, group, other.
+># is sum of r=4, w=2, and x=1

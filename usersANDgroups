@@ -1,0 +1,5 @@
+id command: The id command is used to show information about the current logged-in user
+switch user: su [-] <username>
+add user: useradd username(usermod --help will display the basic options )
+add group: groupadd groupname
+
